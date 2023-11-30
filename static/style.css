@@ -16,6 +16,7 @@ header {
 .left-side-menu {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 
 .left-side-menu #icon {
@@ -30,6 +31,7 @@ header {
 .right-side-menu {
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
     width: 200px;
 }
 
@@ -64,12 +66,7 @@ header {
     padding-top: 80px;
 }
 
-.left-side h1 {
-    padding-right: 1080px;
-}
-
 .left-side p {
-    width: 1200px;
     padding-bottom: 50px;
 }
 
@@ -81,12 +78,12 @@ header {
 
 }
 
-.right-side h1 {
-    padding-right: 1040px;
+.right-side {
+    display: flex;
 }
 
-.right-side p {
-    width: 1200px;
+.right-side p{
+    width: 900px;
 }
 
 .right-side ul {
